@@ -46,12 +46,15 @@ android {
 
 dependencies {
     //Dependecias que se agregan
+    implementation(libs.androidx.compose.material.icons.extended)
 
     // Necesario para vistas clásicas usadas por Media3
     implementation(libs.androidx.appcompat)
     // Room
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.navigation.runtime.ktx)
+    implementation(libs.androidx.navigation.compose)
     ksp(libs.androidx.room.compiler)
     // DataStore
     implementation(libs.androidx.datastore.preferences)

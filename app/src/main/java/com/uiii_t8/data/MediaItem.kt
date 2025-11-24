@@ -15,4 +15,5 @@ data class MediaItem (
     val date: Long, // Fecha de creación (timestamp)
     val duration: Long, // Duración en ms (0 para imágenes)
     val type: MediaType // Tipo de medio (AUDIO, IMAGE, VIDEO)
+
 )
